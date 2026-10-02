@@ -1,8 +1,8 @@
-# Sarima
+# SARIMA - Module 1
  
 Sarima is a design-marketplace concept (like Dribbble) built with React. This project rebuilds an original static HTML site as a proper React app: componentized, data-driven, and with client-side routing.
  
-**Live demo:** [add your Vercel URL here after deploying]
+Live demo: https://sarima-react.vercel.app/
  
 ## Features
  
@@ -19,7 +19,6 @@ Sarima is a design-marketplace concept (like Dribbble) built with React. This pr
 - lucide-react / react-icons (icons)
 ## Project structure
  
-```
 src/
 ├── main.jsx            # app entry point
 ├── App.jsx             # route definitions
@@ -36,7 +35,6 @@ src/
     └── designs.js        # sample design data
 public/
 └── images/               # design thumbnails
-```
  
 ## Routes
  
@@ -50,7 +48,7 @@ public/
  
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/<your-username>/sarima-react.git
+   git clone https://github.com/williamsadele/sarima-react.git
    cd sarima-react
 ```
  
@@ -85,8 +83,7 @@ To deploy your own copy:
 2. Go to vercel.com, click **Add New → Project**, and import the repo.
 3. Framework preset: **Vite**. Leave build settings as default (`npm run build`, output `dist`).
 4. Click **Deploy**.
-## Notes
- 
-- Sample design categories in `data/designs.js` are placeholders and can be adjusted.
-- This is a learning/portfolio project and not connected to a real backend.
- 
+## Notes & Architecture
+- Rebuilt as part of the FlexiSAF Internship Program (Intermediate Track - Module 1).
+- Built with React, Vite, and React Router to support client-side routing.
+- Mock data resides in `src/data/designs.js`.
