@@ -2,7 +2,7 @@
 
 Sarima is a design-marketplace concept (like Dribbble) built with React. This project rebuilds an original static HTML site as a proper React app: componentized, data-driven, and with client-side routing.
 
-**Live demo:** [add your Vercel URL here after deploying]
+**Live demo:** [sarima-react.vercel.app]
 
 ## Features
 
