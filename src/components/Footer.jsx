@@ -40,6 +40,7 @@ export function HomeFooter() {
               {["Home page", "About app", "Blog", "Single post", "Privacy Policy"].map((l) => (
                 <li key={l}><a href="#">{l}</a></li>
               ))}
+              <li><Link to="/components">Component Library</Link></li>
             </ul>
           </div>
           <div className="footer-beta">
